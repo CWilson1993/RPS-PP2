@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, Paper, Scissors, Lizard, Spock!</title>
+    <title>Rock, Paper, Scissors!</title>
 </head>
+
 <body>
     <header>Who will win?</header>
     <div class="game-box">
-        <h2>Computer picks:<span class="comp-pick"></span></h2>
-        <button class="play-button">
-            Let's play!
-        </button>
+        <h2>Computer Pick: <span class="comp-pick"></span></h2>
+        <h2>You Pick: <span id="user-pick"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+        
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
     </div>
     <script src="assets/js/script.js" charset="utf-8"></script>
 </body>
+
 </html>
