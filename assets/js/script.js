@@ -33,21 +33,27 @@ function generateComputerPick() {
 const getResult = () => {
     switch (userPick + computerPick) {
         case 'ScissorsPaper':
-            resultDisplay.innerHTML = userPick + " cuts " + computerPick + ", you win!" 
+            resultDisplay.innerHTML = userPick + " cuts " + computerPick + ", you win!"
+            userScoreIncrement()
             break
         case 'RockScissors':
-            resultDisplay.innerHTML = userPick + " smashes " + computerPick + ", you win!" 
+            resultDisplay.innerHTML = userPick + " smashes " + computerPick + ", you win!"
+            userScoreIncrement()
             break
         case 'PaperRock':
-            resultDisplay.innerHTML = userPick + " covers " + computerPick + ", you win!" 
+            resultDisplay.innerHTML = userPick + " covers " + computerPick + ", you win!"
+            userScoreIncrement()
             break
         case 'PaperScissors':
             resultDisplay.innerHTML = "Oh no you lose as  " + computerPick + " covers " + userPick
+            compScoreIncrement()
             break
         case 'ScissorsRock':
             resultDisplay.innerHTML = "Oh no you lose as  " + computerPick + " smashes " + userPick
+            compScoreIncrement()
         case 'RockPaper':
             resultDisplay.innerHTML = "Oh no you lost as " + computerPick + " covers " + userPick
+            compScoreIncrement()
             break
         case 'PaperPaper':
         case 'ScissorsScissors':
@@ -55,4 +61,16 @@ const getResult = () => {
             resultDisplay.innerHTML = "You both picked " + userPick + ", it's a draw!"
             break
     }
+}
+
+function userScoreIncrement() {
+
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++oldScore;
+}
+
+function compScoreIncrement() {
+
+    let oldScore = parseInt(document.getElementById("comp-score").innerText);
+    document.getElementById("comp-score").innerText = ++oldScore;
 }
