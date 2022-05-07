@@ -1,7 +1,7 @@
 body {
-    background: #90c9bf;
+    background: #EEE4AB;
     font-family: "Inter", sans-serif;
-    color: #fff;
+    color: #143F6B;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ body {
 
 
 .game-box {
-    background-color: #90c9bf;
+    background-color: #EEE4AB;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
