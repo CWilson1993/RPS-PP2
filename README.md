@@ -55,3 +55,18 @@ This was a project to create a game for someone to just enjoy or help them decid
 * [Google Fonts](https://fonts.google.com/)
     * Google fonts was used in the project to import the desired font.
 
+## Testing
+
+For the testing I applied several different methods.
+* Responsiveness testing
+    * I used Google Chrome dev tools to see what my site looked like on different screen sizes and also used [Responsive Design Checker](https://responsivedesignchecker.com/).
+    * I sent the site to my family and friends to help me test it across different devices. Below are some of the results.
+        * Xiaomi Redmi Note 10 Pro - no issues.
+        * IPhone 12 - no issues.
+        * Samsung Galaxy tablet - no issues.
+        * Desktop 1920 x 1080 - no issues.
+
+* Google Lighthouse
+    * I used Google Lighthouse to measure the performance of the site on mobile and desktop screens.
+    ![Lighthouse Mobile](assets/docs/mobile_lighthouse.png) ![Lighthouse Desktop](assets/docs/desktop_lighthouse.png)
+
