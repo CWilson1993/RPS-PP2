@@ -13,5 +13,10 @@ This was a project to create a game for someone to just enjoy or help them decid
     * This is the first section on the page. 
     * It is blank at first but it is clear what the information is about.
     * Once the user makes their choice the computer makes a random choice and the result will populate.
-    ![Chosen Section](assets/docs/chosen_section.png)
+    ![Chosen Area](assets/docs/chosen_section.png)
 
+* ### Choice Area
+    * This section is simple but the idea is to have clear hand images to represent the choices.
+    * The user clicks the button of their choice which will start the game.
+    * The chosen button changes colour so that the user knows which one has been picked.
+    ![Choice Area](assets/docs/choices_buttons.png)
