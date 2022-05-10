@@ -70,3 +70,18 @@ For the testing I applied several different methods.
     * I used Google Lighthouse to measure the performance of the site on mobile and desktop screens.
     ![Lighthouse Mobile](assets/docs/mobile_lighthouse.png) ![Lighthouse Desktop](assets/docs/desktop_lighthouse.png)
 
+* Online Validators
+    * HTML 
+        * The HTML code was run through the [W3C Validator](https://validator.w3.org/#validate_by_input) and returned no errors. [View report](assets/docs/html_validator.png).
+    * CSS
+        * For the CSS I ran it through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and it returned zero errors. [View report](assets/docs/css_validator.png).
+    * JavaScript
+        * For the JavaScript code I ran it through [JSHint](https://jshint.com/) and it returned zero errors. 
+        ![JSHint](assets/docs/js_validator.png)
+
+## Deployment
+* The site was deployed using GitHub pages. The steps are quite straightforward once you have a GitHub account and repository already set up:
+* In the GitHub repository screen click the "Settings" section.
+* Under "Code and automation" click the "Pages" part.
+* On the next screen make sure the "Branch" is set to main and the folder is set to root, once done press the save button.
+* Above the source section it will initially say "Your site is ready to be published", after a few minutes this should change to "Your site is published" it will also include the URL for your site.
