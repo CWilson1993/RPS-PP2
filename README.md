@@ -4,4 +4,5 @@ This was a project to create a game for someone to just enjoy or help them decid
 
 - __Published site available here: [Rock, Paper, Scissors!](https://cwilson1993.github.io/RPS-PP2/)__
 
+![responsive-image](assets/docs/responsive_design.png)
 
