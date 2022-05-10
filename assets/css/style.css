@@ -100,8 +100,14 @@ body {
 }
 
 /* --------- Media queries */
+@media (max-width: 390px) {
+    .container{
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+}
 
-@media (max-width: 414px) {
+@media (max-width: 320px) {
     .game-box {
         width: 100%;
     }
@@ -133,13 +139,4 @@ body {
         align-items: center;
     }
 }
-/* 
-@media (max-width: 320px) {
-    .game-box {
-        height: 70vh;
-    }
 
-    .btn--big {
-        margin: 10px 10px;
-    }
-} */
