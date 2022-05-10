@@ -76,6 +76,12 @@ body {
     background-color: darkgreen;
     color: white;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .score {
     display: inline-block;
@@ -121,8 +127,12 @@ body {
     .heading {
         font-size: 2rem;
     }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
-
+/* 
 @media (max-width: 320px) {
     .game-box {
         height: 70vh;
@@ -131,4 +141,4 @@ body {
     .btn--big {
         margin: 10px 10px;
     }
-}
+} */
