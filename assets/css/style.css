@@ -10,6 +10,9 @@ body {
     font-size: 2.5rem;
 }
 
+.game{
+    min-height: 45vh;
+}
 
 .game-box {
     background-color: #FFC4DD;
@@ -100,7 +103,7 @@ body {
 }
 
 /* --------- Media queries */
-@media (max-width: 390px) {
+@media (max-width: 401px) {
     .container{
         padding-top: 0;
         padding-bottom: 5%;
@@ -128,7 +131,8 @@ body {
     .score {
         margin: 0.5em auto;
         display: inline-block;
-        padding: 10px;
+        padding-top: 10px ;
+        padding-bottom: 5px;
     }
 
     .heading {
