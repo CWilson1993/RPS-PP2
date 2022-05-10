@@ -38,7 +38,7 @@ This was a project to create a game for someone to just enjoy or help them decid
 
 *** 
 
-##Technologies
+## Technologies
 
 * HTML
     * In this project I used HTML as the language which gave the main structure to the website.
@@ -47,4 +47,11 @@ This was a project to create a game for someone to just enjoy or help them decid
 * CSS
     * I used CSS to style my website in an appealing and accessible way.
 * [GitHub](https://github.com/)
-    * GitHub was used to host the website and store the code in a repository
+    * GitHub was used to host the website and store the code in a repository.
+* [Stack Overflow](https://stackoverflow.com/)
+    * I used Stack Overflow to help with any issues I found when doing the project.
+* [Font Awesome](https://fontawesome.com/)
+    * I used Font Awesome icons for the buttons in the choice section.
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts was used in the project to import the desired font.
+
