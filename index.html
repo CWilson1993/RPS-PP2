@@ -17,25 +17,37 @@
 
 <body>
     <h1 class="heading">Rock, Paper, Scissors!</h1>
-    <div class="game-box">
-        <h2>Computer Picks: <span id="comp-pick"></span></h2>
-        <h2>You Pick: <span id="user-pick"></span></h2>
-        <h2>Result: <span id="result"></span></h2>
+    <section>
+        <div class="game-box">
+            <h2>Computer Picks: <span id="comp-pick"></span></h2>
+            <h2>You Pick: <span id="user-pick"></span></h2>
+            <h2>Result: <span id="result"></span></h2>
 
-        <button id="rock" value="Rock" aria-label="Rock button" class="btn btn--big btn--blue">
-            <i class="far fa-hand-rock"></i>
-        </button>
-        <button id="paper" value="Paper" aria-label="Paper button" class="btn btn--big btn--green">
-            <i class="far fa-hand-paper"></i>
-        </button>
-        <button id="scissors" value="Scissors" aria-label="Scissors button" class="btn btn--big btn--orange">
-            <i class="far fa-hand-scissors"></i>
-        </button>
-    </div>
-    <div>
-        <p class="score">User wins: <span id="user-score">0</span></p>
-        <p class="score">Computer wins: <span id="comp-score">0</span></p>
-    </div>
+            <button id="rock" value="Rock" aria-label="Rock button" class="btn btn--big btn--blue">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button id="paper" value="Paper" aria-label="Paper button" class="btn btn--big btn--green">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button id="scissors" value="Scissors" aria-label="Scissors button" class="btn btn--big btn--orange">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+        <div>
+            <p class="score">User wins: <span id="user-score">0</span></p>
+            <p class="score">Computer wins: <span id="comp-score">0</span></p>
+        </div>
+    </section>
+    <section>
+        <div class="about">
+            <h2>About</h2>
+            <p>Can't decide who goes first? Not sure what to do? This is the game for you!</p>
+            <h3>Rules are simple:</h3>
+            <p>Rock crushes scissors!</p>
+            <p>Paper covers rock!</p>
+            <p>Scissors cuts paper!</p>
+        </div>
+    </section>
     <script src="assets/js/script.js" charset="utf-8"></script>
 </body>
 
