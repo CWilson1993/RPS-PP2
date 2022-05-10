@@ -6,7 +6,7 @@ let userPick
 let computerPick
 let result
 
-
+// Event listener for button click
 choices.forEach(choice => choice.addEventListener('click', (e) => {
     userPick = e.target.value
     userPickDisplay.innerHTML = userPick
@@ -14,6 +14,7 @@ choices.forEach(choice => choice.addEventListener('click', (e) => {
     getResult()
 }))
 
+//function to get computer's choice
 function generateComputerPick() {
     const randomPick = Math.floor(Math.random() * choices.length) + 1
 
@@ -30,6 +31,7 @@ function generateComputerPick() {
 
 }
 
+// function to get the result based on user and computer choices
 const getResult = () => {
     switch (userPick + computerPick) {
         case 'ScissorsPaper':
@@ -64,12 +66,14 @@ const getResult = () => {
     }
 }
 
+// function to increment user's score
 function userScoreIncrement() {
 
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
 }
 
+//function to increment computer's score
 function compScoreIncrement() {
 
     let oldScore = parseInt(document.getElementById("comp-score").innerText);
