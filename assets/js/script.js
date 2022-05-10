@@ -45,12 +45,13 @@ const getResult = () => {
             userScoreIncrement()
             break
         case 'PaperScissors':
-            resultDisplay.innerHTML = "Oh no you lose as  " + computerPick + " covers " + userPick
+            resultDisplay.innerHTML = "Oh no you lose as  " + computerPick + " cuts " + userPick
             compScoreIncrement()
             break
         case 'ScissorsRock':
             resultDisplay.innerHTML = "Oh no you lose as  " + computerPick + " smashes " + userPick
             compScoreIncrement()
+            break
         case 'RockPaper':
             resultDisplay.innerHTML = "Oh no you lost as " + computerPick + " covers " + userPick
             compScoreIncrement()
