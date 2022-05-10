@@ -20,3 +20,11 @@ This was a project to create a game for someone to just enjoy or help them decid
     * The user clicks the button of their choice which will start the game.
     * The chosen button changes colour so that the user knows which one has been picked.
     ![Choice Area](assets/docs/choices_buttons.png)
+
+* ### Score Area
+    * This section keeps track of who wins each round.
+    * I wrote a JavaScript function which increments the score for whoever wins. If it is a draw then nothing changes.
+    * The font colour of the scores is different so as to draw a clear distinction between who wins.
+    ![Score Area](assets/docs/score_section.png)
+
+    
