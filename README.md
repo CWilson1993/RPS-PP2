@@ -85,3 +85,7 @@ For the testing I applied several different methods.
 * Under "Code and automation" click the "Pages" part.
 * On the next screen make sure the "Branch" is set to main and the folder is set to root, once done press the save button.
 * Above the source section it will initially say "Your site is ready to be published", after a few minutes this should change to "Your site is published" it will also include the URL for your site.
+
+## Credits
+
+I'd like to thank Nishant Kumar and Kasia Bogucka for their help keeping me on the right track and guiding me.
